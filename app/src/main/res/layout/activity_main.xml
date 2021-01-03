@@ -4,37 +4,45 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:layout_height="match_parent"
         android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:orientation="vertical"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <EditText
+            android:layout_margin="10dp"
             android:hint="Product Code"
             android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
             android:hint="Product Name "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
 
             android:hint="Manufacture Date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
             android:hint="Expiry Date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
             android:hint="Product Description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
             android:hint="Price"
             android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatButton
             android:background="#3F959E"
+            android:layout_margin="10dp"
             android:text="SUBMIT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
